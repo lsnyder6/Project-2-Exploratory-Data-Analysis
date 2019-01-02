@@ -3,9 +3,7 @@
 ## This first line will likely take a few seconds. Be patient!
 NEI <- readRDS("summarySCC_PM25.rds")
 SCC <- readRDS("Source_Classification_Code.rds")
-## Use dir() to ensure you have the files. Bring up NEI and SCC in View() to aid in analysis.## Question 2
-## Have total emissions from PM2.5 decreased in the Baltimore City, Maryland (fips == "24510") from 1999 to 2008? 
-## Base plotting system again required.
+## Use dir() to ensure you have the files. Bring up NEI and SCC in View() to aid in analysis. 
 
 ## Question 3
 ## Of the four types of sources indicated by the type (point, nonpoint, onroad, nonroad) variable, which of these four sources have seen decreases in emissions from 1999-2008 for Baltimore City? 
